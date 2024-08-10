@@ -1,0 +1,9 @@
+{
+  "HomePage": {
+    "title": "kak dela"
+  },
+  "LocaleSwitcher": {
+    "label": "Change ru",
+    "locale": "{locale, select, az {AZ} en {EN} ru {RU} other {Unknown}}"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "HomePage": {
+    "title": "Xos gordukkk"
+  },
+  "LocaleSwitcher": {
+    "label": "Dili dəyiş",
+    "locale": "{locale, select, az {AZ} en {EN} ru {RU} other {Unknown}}"
+  }
+}

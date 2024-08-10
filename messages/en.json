@@ -1,0 +1,9 @@
+{
+  "HomePage": {
+    "title": "Welcomeeeeeee  to homee"
+  },
+  "LocaleSwitcher": {
+    "label": "",
+    "locale": "{locale, select, az {AZ} en {EN} ru {RU} other {Unknown}}"
+  }
+}
