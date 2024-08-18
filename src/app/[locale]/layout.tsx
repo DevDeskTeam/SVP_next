@@ -5,8 +5,8 @@ import { getMessages } from "next-intl/server";
 import type { Metadata } from "next";
 import ReduxProvider from "@/app/provider";
 import '@/app/globals.css'
+import Header from "@/components/Header/Header";
 
-import Header from "../../../components/Header/Header";
 
 export const metadata: Metadata = {
   title: {
