@@ -10,7 +10,7 @@ import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 const Header: React.FC = () => {
   return (
     <header className="container">
-      <div className={`${styles.banner}`}>
+      {/* <div className={`${styles.banner}`}>
         <div className={`${styles.left}`}>
           <Image src={Mainlogo} alt="SVP" />
           <ul className="flex items-center gap-6">
@@ -36,7 +36,7 @@ const Header: React.FC = () => {
             <ButtonProps className={styles.button} title="Start trading" />
           </ul>
         </div>
-      </div>
+      </div> */}
     </header>
   );
 };
