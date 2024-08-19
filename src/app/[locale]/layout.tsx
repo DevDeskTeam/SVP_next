@@ -7,7 +7,6 @@ import ReduxProvider from "@/app/provider";
 import '@/app/globals.css'
 import Header from "@/components/Header/Header";
 
-
 export const metadata: Metadata = {
   title: {
     default: "SVP",
@@ -31,7 +30,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body className=''>
-      <NextTopLoader
+        <NextTopLoader
           color="#1e5e27"
           height={2}
           crawl={true}
