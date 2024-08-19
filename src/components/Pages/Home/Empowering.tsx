@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import styles from "@/assets/css/home/empowering.module.css";
 import Background from "@/assets/images/Hero.png";
-import SwiperComponent from '@/components/Swiper/home_swiper';
+// import SwiperComponent from '@/components/Swiper/home_swiper';
 
 import '@fontsource/open-sans';
 const Empowering = () => {
@@ -20,7 +20,7 @@ const Empowering = () => {
           <p>Figma ipsum component variant main layer. Slice list scale figjam prototype slice reesizing. </p>
           <button>Learn More</button>
         </div>
-        <SwiperComponent />
+        {/* <SwiperComponent /> */}
       </div>
     </div>
   )

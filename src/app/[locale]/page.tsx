@@ -10,9 +10,14 @@ export default function Home() {
   return (
     <>
       <h1>{t("title")}</h1>
+
       <section>
         <div className="container">
           <Empowering />
+        </div>
+      </section>
+      <section>
+        <div className="container">
           <Features />
         </div>
       </section>
