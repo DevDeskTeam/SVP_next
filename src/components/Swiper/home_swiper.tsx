@@ -1,23 +1,62 @@
-// // components/SwiperComponent.js
-// import React from 'react';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/swiper-bundle.min.css';
+'use client'
+import '@/assets/css/home/swiper_home.css'
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
 
-// const SwiperComponent = () => {
-//   return (
-//     <Swiper
-//       spaceBetween={50}
-//       slidesPerView={3}
-//       onSlideChange={() => console.log('slide change')}
-//       onSwiper={(swiper) => console.log(swiper)}
-//     >
-//       <SwiperSlide>Slide 1</SwiperSlide>
-//       <SwiperSlide>Slide 2</SwiperSlide>
-//       <SwiperSlide>Slide 3</SwiperSlide>
-//       <SwiperSlide>Slide 4</SwiperSlide>
-//       ...
-//     </Swiper>
-//   );
-// };
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-// export default SwiperComponent;
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+// import './styles.css';
+
+// import required modules
+import { Navigation } from 'swiper/modules';
+
+export default function App() {
+    return (
+        <>
+            <Swiper
+                navigation={true}
+                modules={[Navigation]}
+                className="mySwiper"
+                slidesPerView={1}
+            // spaceBetween={50}
+
+            >
+                <SwiperSlide>
+                    <div className='services'>
+                        <h1>Transportation services</h1>
+                        <p>Figma ipsum component variant main layer. Slice list scale figjam prototype slice reesizing. </p>
+                        <button>Learn More</button>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='services'>
+                        <h1>Transportation services</h1>
+                        <p>Figma ipsum component variant main layer. Slice list scale figjam prototype slice reesizing. </p>
+                        <button>Learn More</button>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='services'>
+                        <h1>Transportation services</h1>
+                        <p>Figma ipsum component variant main layer. Slice list scale figjam prototype slice reesizing. </p>
+                        <button>Learn More</button>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='services'>
+                        <h1>Transportation services</h1>
+                        <p>Figma ipsum component variant main layer. Slice list scale figjam prototype slice reesizing. </p>
+                        <button>Learn More</button>
+                    </div>
+                </SwiperSlide>
+                {/* <div className='rectangular'>  aKM
+                </div> */}
+            </Swiper>
+        </>
+    );
+}
+

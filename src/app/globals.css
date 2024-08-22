@@ -1,11 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* 
+body {
+  border-left: 8px solid #2191DD;
+  border-top: 8px solid #2191DD;
+  border-right: 8px solid #2191DD;
+  height: 100vh;
+} */
 
-
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Set body's height to match the viewport height */
+  /* Example border-right */
+  box-sizing: border-box;
+}
+body::after {
+  content: '';
+  position: fixed; /* Fixes the border to the viewport */
+  top: 0;
+  right: 0;
+  width: 8px; /* Border width */
+  height: 100vh; /* Make it span the entire viewport height */
+  background-color: #2191DD; /* Border color */
+  pointer-events: none; /* Ensures it doesn’t interfere with other elements */
+}
+body::before {
+  content: '';
+  position: fixed; /* Fixes the border to the viewport */
+  top: 0;
+  left: 0;
+  width: 8px; /* Border width */
+  height: 100vh; /* Make it span the entire viewport height */
+  background-color: #2191DD; /* Border color */
+  pointer-events: none; /* Ensures it doesn’t interfere with other elements */
+}
 
 .container {
   max-width: 1368px;
   /* padding: 0 20px;    28px olmalidi bidene ozunde bax umumiden featurese qeder mesafe */
   margin: 0 auto;
+}
+
+.blue_line {
+  width: 100%;
+  height: 8px;
+  background-color: #2191DD;
 }
