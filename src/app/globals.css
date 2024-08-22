@@ -6,6 +6,6 @@
 
 .container {
   max-width: 1368px;
-  /* padding: 0 20px;    28px olmalidi bidene ozunde bax umumiden featurese qeder mesafe */
+   padding: 0 28px;    
   margin: 0 auto;
 }
