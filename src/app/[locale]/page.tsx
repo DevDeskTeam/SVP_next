@@ -13,23 +13,27 @@ export default function Home() {
       <h1>{t("title")}</h1>
       <section>
         <div className="container">
-          {/* <Features /> */}
+          <Features />
         </div>
       </section>
       <section>
         <div className="container">
-        <div className={`${styles.banner}`}>
-          <div className={`${styles.services}`}>
-            <h2 className={`${styles.text} container`}>Services</h2>
-            {/* <Services />
-            <Services />
-            <Services />
-            <Services /> */}
-              <CustomerCard />
-              <SolutionSect/>
+          <div className={`${styles.banner}`}>
+            <div className={`${styles.services}`}>
+              <h2 className={`${styles.text}`}>Services</h2>
+              <Services />
+              <Services />
+              <Services />
+              <Services />
+            </div>
           </div>
         </div>
-       </div>
+      </section>
+      <section>
+        <div className="container">
+          <CustomerCard />
+          <SolutionSect />
+        </div>
       </section>
     </>
   );

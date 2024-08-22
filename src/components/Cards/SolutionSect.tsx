@@ -1,5 +1,5 @@
 import React, { Children } from "react";
-import styles from "@/assets/css/cards/solutionsect.module.scss";
+import styles from "@/assets/css/cards/solutionsect.module.css";
 
 const SolutionSect = () => {
   return (

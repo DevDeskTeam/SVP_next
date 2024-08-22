@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/assets/css/cards/customercard.module.scss";
+import styles from "@/assets/css/cards/customercard.module.css";
 
 const CustomerCard = () => {
   return (
