@@ -14,24 +14,26 @@
 }
 
 .rectangular {
-    width: 9px;
+    width: 19px;
     height: 10px;
     background-color: #2191DD;
     color: red;
     /* bottom: 169px;
     right: 40px; */
     position: absolute;
-    bottom: 227px;
-    right: -19px;
+    bottom: 210px;
+    right: -63px;
+    /* bottom: 228px;
+    right: -20px; */
     z-index: 3;
-    /* border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    /* border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px; */
-    border-radius: 0 100px 0 0;
+    /* border-radius: 0 100px 0 0; */
     transform: rotate(90deg);
     border-radius: 0 0 0 10px;
-    
+
 }
 
 /* .text {

@@ -16,7 +16,7 @@ const Empowering = () => {
             journey</p>
         </div>
         <Swiper_Home />
-        <div className={`${styles.rectangular}`}></div>
+        {/* <div className={`${styles.rectangular}`}></div> */}
       </div>
     </div>
   )
