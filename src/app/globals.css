@@ -9,38 +9,60 @@ body {
   height: 100vh;
 } */
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  min-height: 100vh; /* Set body's height to match the viewport height */
+  min-height: 100vh;
+  /* Set body's height to match the viewport height */
   /* Example border-right */
   box-sizing: border-box;
 }
+
 body::after {
   content: '';
-  position: fixed; /* Fixes the border to the viewport */
+  position: fixed;
+  /* Fixes the border to the viewport */
   top: 0;
   right: 0;
-  width: 8px; /* Border width */
-  height: 100vh; /* Make it span the entire viewport height */
-  background-color: #2191DD; /* Border color */
-  pointer-events: none; /* Ensures it doesn’t interfere with other elements */
+  width: 8px;
+  /* Border width */
+  height: 100vh;
+  /* Make it span the entire viewport height */
+  background-color: #2191DD;
+  /* Border color */
+  pointer-events: none;
+  /* Ensures it doesn’t interfere with other elements */
 }
+
 body::before {
   content: '';
-  position: fixed; /* Fixes the border to the viewport */
+  position: fixed;
+  /* Fixes the border to the viewport */
   top: 0;
   left: 0;
-  width: 8px; /* Border width */
-  height: 100vh; /* Make it span the entire viewport height */
-  background-color: #2191DD; /* Border color */
-  pointer-events: none; /* Ensures it doesn’t interfere with other elements */
+  width: 8px;
+  /* Border width */
+  height: 100vh;
+  /* Make it span the entire viewport height */
+  background-color: #2191DD;
+  /* Border color */
+  pointer-events: none;
+  /* Ensures it doesn’t interfere with other elements */
 }
 
 .container {
-  max-width: 1368px;
+  /* width: 100%; */
+  /* max-width: 1368px; */
   /* padding: 0 20px;    28px olmalidi bidene ozunde bax umumiden featurese qeder mesafe */
+  
   margin: 0 auto;
+  /* margin: 0 28px; */
+  @media (min-width: 1280px) {
+    max-width: 1368px;
+    margin: 0 auto;
+    /* margin: 0 28px; */
+  }
 }
 
 .blue_line {

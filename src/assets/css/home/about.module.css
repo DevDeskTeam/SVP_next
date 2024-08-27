@@ -1,0 +1,39 @@
+.banner {
+    padding: 96px 0;
+}
+
+.text_about {
+    padding-left: 28px;
+}
+
+.text_about p {
+    color: #4E4E4E;
+
+    /* H 1 */
+    font-family: "Open Sans";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112px;
+    /* 116.667% */
+    letter-spacing: -4.8px;
+}
+
+.text_desc {
+    display: flex;
+    justify-content: end;
+}
+
+.text_desc p {
+    width: 876px;
+    color: #4E4E4E;
+    margin: 72px 28px 0 69px;
+
+    /* Title 5/400 */
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.504px;
+}
