@@ -7,6 +7,7 @@ import Features from "@/components/Pages/Home/Features";
 import Services from "@/components/Cards/ServicesCard";
 import styles from "@/assets/css/style.module.css";
 import About from "@/components/Pages/Home/About";
+import Trading from "@/components/Pages/Home/Trading";
 export default function Home() {
   const t = useTranslations("HomePage");
 
@@ -22,6 +23,11 @@ export default function Home() {
       <section>
         <div className="container">
           <About />
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <Trading />
         </div>
       </section>
       <section>
