@@ -24,15 +24,16 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <div className="container">
-          <div className={`${styles.banner}`}>
-            <div className={`${styles.services}`}>
+        <div className={`${styles.banner}`}>
+          <div className={`${styles.services}`}>
+            <div className="container">
               <h2 className={`${styles.text}`}>Services</h2>
-              <Services />
-              <Services />
-              <Services />
-              <Services />
             </div>
+
+            <Services />
+            <Services />
+            <Services />
+            <Services />
           </div>
         </div>
       </section>

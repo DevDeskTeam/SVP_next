@@ -3,7 +3,6 @@ import styles from "@/assets/css/cards/servicescard.module.css";
 const ServicesCard = () => {
   return (
     <div className={`${styles.card}`}>
-      <div className="container">
         <div className={`${styles.card_inner}`}>
           <div className={`${styles.first}`}>
             <span>01</span>
@@ -17,7 +16,6 @@ const ServicesCard = () => {
               insurance, letting you focus on your business growth.
             </p>
           </div>
-        </div>
       </div>
     </div>
   );
