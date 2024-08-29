@@ -1,13 +1,19 @@
+/* section {
+  margin: 0 28px;
+} */
+
 .services {
   margin-top: 100px;
 }
+
 .text {
   color: #4e4e4e;
   font-family: "Open Sans";
   font-size: 96px;
   font-style: normal;
   font-weight: 400;
-  line-height: 112px; /* 116.667% */
+  line-height: 112px;
+  /* 116.667% */
   letter-spacing: -4.8px;
   margin-bottom: 40px;
 }
