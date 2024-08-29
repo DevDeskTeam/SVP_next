@@ -10,15 +10,17 @@ const Features = () => {
           <h2>optimization</h2>
         </div>
       </div>
-      <div className="flex items-end justify-end md:gap-8 mt-14">
+      <div className={`${styles.items} flex items-end gap-4 justify-end md:gap-8 mt-8`} >
         <FeatureCard />
         <FeatureCard />
       </div>
-      <div className="flex items-start justify-start md:gap-8 mt-8">
+      <div className={`${styles.items} flex items-end gap-4 justify-start md:gap-8 mt-4`} >
+
         <FeatureCard />
         <FeatureCard />
       </div>
-      <div className="flex items-end justify-end md:gap-8 mt-8">
+      <div className={`${styles.items} flex items-end gap-4 justify-end md:gap-8 mt-4`} >
+
         <FeatureCard />
         <FeatureCard />
       </div>

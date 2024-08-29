@@ -33,6 +33,7 @@
   letter-spacing: -0.176px;
 }
 .right  svg{
+  display: none;
   cursor: pointer;
 }
 .right ul li {
@@ -67,7 +68,15 @@
 
     display: none;
   }
+  .right svg{
+    display: block;
+  }
   .right ul{
     display: none;
+  }
+  .left img {
+    width: 100px;
+    height: 48px;
+
   }
 }
