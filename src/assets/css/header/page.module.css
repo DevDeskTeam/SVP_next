@@ -32,6 +32,9 @@
   line-height: 24px;
   letter-spacing: -0.176px;
 }
+.right  svg{
+  cursor: pointer;
+}
 .right ul li {
   color: #4e4e4e;
   text-align: center;
@@ -56,4 +59,15 @@
   font-weight: 600;
   line-height: 24px; /* 150% */
   letter-spacing: -0.176px;
+}
+
+
+@media (max-width:1024px) {
+  .left ul{
+
+    display: none;
+  }
+  .right ul{
+    display: none;
+  }
 }
