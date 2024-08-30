@@ -2,9 +2,9 @@ import React from 'react'
 import Image from "next/image";
 import styles from "@/assets/css/home/empowering.module.css";
 import Background from "@/assets/images/Hero.png";
-// import SwiperComponent from '@/components/Swiper/home_swiper';
-
+import Swiper_Home from "@/components/Swiper/home_swiper"
 import '@fontsource/open-sans';
+
 const Empowering = () => {
   return (
     <div>
@@ -15,12 +15,8 @@ const Empowering = () => {
             your global trade
             journey</p>
         </div>
-        <div className={`${styles.services}`}>
-          <h1>Transportation services</h1>
-          <p>Figma ipsum component variant main layer. Slice list scale figjam prototype slice reesizing. </p>
-          <button>Learn More</button>
-        </div>
-        {/* <SwiperComponent /> */}
+        <Swiper_Home />
+        {/* <div className={`${styles.rectangular}`}></div> */}
       </div>
     </div>
   )
