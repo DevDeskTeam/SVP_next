@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <h1>{t("title")}</h1>
 
-      <section >
+      {/* <section >
         <div className="container">
           <Empowering />
         </div>
@@ -49,7 +49,7 @@ export default function Home() {
             <Services />
           </div>
         </div>
-      </section>
+      </section> */}
       <section>
         <div className="container">
           <CustomerCard />

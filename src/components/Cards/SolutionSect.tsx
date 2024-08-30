@@ -36,16 +36,14 @@ const SolutionSect = () => {
           </div>
         </div>
 
-              <div className={styles.middle}>
-                  <div className="empty">
-                      
-                  </div>
-                  <div className={styles.right_sect}>
-                  <p>
-            To cooperate in the realization of promising ideas by contributing
-            financially and intellectually, with knowledge.
-          </p>
-         </div>
+        <div className={styles.middle}>
+          <div className="empty"></div>
+          <div className={styles.right_sect}>
+            <p>
+              To cooperate in the realization of promising ideas by contributing
+              financially and intellectually, with knowledge.
+            </p>
+          </div>
         </div>
 
         <div className={styles.foot}>
