@@ -7,6 +7,7 @@ import ReduxProvider from "@/app/provider";
 import '@/app/globals.css'
 import Header from "@/components/Header/Header";
 import BlueLine from "@/components/Pages/Home/BlueLIne";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: {
@@ -44,6 +45,7 @@ export default async function RootLayout({
             <BlueLine />
             <Header />
             {children}
+            <Footer/>
           </ReduxProvider>
         </NextIntlClientProvider>
       </body>
