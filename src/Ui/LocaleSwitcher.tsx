@@ -23,7 +23,7 @@ export default function LocaleSwitcher(){
                 {locales.map((loc) => (
                     <li
                         key={loc}
-                        className={`lan_res cursor-pointer ${loc === locale ? 'hidden' : 'flex'}`}
+                        className={`cursor-pointer ${loc === locale ? 'hidden' : 'flex'}`}
                         onClick={() => switchLocale(loc)}
                     >
                         {t('locale', {locale: loc})}

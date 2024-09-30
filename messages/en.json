@@ -1,8 +1,24 @@
 {
+  "HomePage": {
+    "services": "Services",
+    "feature": "The features of",
+    "optimization": "optimization"
+  },
+  "HomePageFeatured": {
+    "description1": "We optimization improves resource usage, leading to more effective task performance.",
+    "description2": "We identify and eliminate unnecessary expenses, resulting in significant cost savings.",
+    "description3": "We enable systems to scale easily as demand increases without significant investment.",
+    "description4": "We optimization enhances system performance for faster execution and better responsiveness.",
+    "description5": "We optimization provides data-driven insights that improve decision-making processes.",
+    "description6": "We it promotes sustainability by reducing waste and minimizing environmental impact."
+  },
+
   "HomePageServices": {
+    "services": "Services",
+
     "title1": "Transportation services",
     "description1": "Our trade company ensures safe, efficient, and timely delivery through air, sea, and land transport. We handle full and partial shipments, offer multimodal solutions, and provide cargo insurance, letting you focus on your business growth.",
-    
+
     "title2": "Customs broker services",
     "description2": "Feeling overwhelmed by complex customs regulations and paperwork? Don't let international shipping become a headache. At SVP company, we offer expert customs brokerage services designed to streamline your import and export processes.",
 
@@ -12,6 +28,7 @@
     "title4": "Cargo insurance services",
     "description4": "We understand the importance of protecting your valuable cargo. That's why we offer comprehensive cargo insurance options to protect your investment. Our insurance solutions provide peace of mind and allow you to focus on your business goals with confidence."
   },
+
   "LocaleSwitcher": {
     "label": "",
     "locale": "{locale, select, az {AZ} en {EN} ru {RU} other {Unknown}}"

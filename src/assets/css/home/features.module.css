@@ -1,7 +1,12 @@
 .banner {
   margin-top: 100px;
 }
-
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 70px;
+}
 .text {
   font-size: 96px;
   font-style: normal;

@@ -15,9 +15,7 @@ export default function Home() {
 
   return (
     <>
-      <h1>{t("title")}</h1>
-
-      <section >
+      <section>
         <div className="container">
           <Empowering />
         </div>
@@ -41,9 +39,9 @@ export default function Home() {
         <div className={`${styles.banner}`}>
           <div className={`${styles.services}`}>
             <div className="container">
-              <h2 className={`${styles.text}`}>Services</h2>
+              <h2 className={`${styles.text}`}>{t('services')}</h2>
             </div>
-                <Services/>
+            <Services />
           </div>
         </div>
       </section>

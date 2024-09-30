@@ -1,4 +1,17 @@
 {
+  "HomePage": {
+    "services": "Xidmətlər",
+    "feature": "Optimallaşdırmanın ",
+    "optimization": "xüsusiyyətləri"
+  },
+  "HomePageFeatured": {
+    "description1": "Biz optimallaşdırma resurslardan istifadəni yaxşılaşdırır və tapşırıqların daha effektiv yerinə yetirilməsinə səbəb oluruq.",
+    "description2": "Biz lazımsız xərcləri müəyyən edir və aradan qaldırırıq, nəticədə əhəmiyyətli xərclərə qənaət edirik.",
+    "description3": "Biz əhəmiyyətli investisiyalar olmadan tələb artdıqca sistemlərin asanlıqla miqyas almasına imkan veririk.",
+    "description4": "Biz optimizasiya daha sürətli icra və daha yaxşı cavab vermək üçün sistem performansını artırırıq.",
+    "description5": "Biz optimallaşdırma qərar qəbuletmə proseslərini təkmilləşdirən dataya əsaslanan anlayışlar təqdim edirik.",
+    "description6": "Biz tullantıları azaltmaqla və ətraf mühitə təsirləri minimuma endirməklə davamlılığı təşviq edirik."
+  },
   "HomePageServices": {
     "title1": "Nəqliyyat xidmətləri",
     "description1": "Bizim ticarət şirkətimiz hava, dəniz və quru nəqliyyatı ilə təhlükəsiz, səmərəli və vaxtında çatdırılmanı təmin edir. Tam və qismən yükləri idarə edirik, multimodal həllər təklif edirik və yük sığortası təmin edirik, sizə isə biznesinizin inkişafına diqqət yetirməyi buraxırıq.",

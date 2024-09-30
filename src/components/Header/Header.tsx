@@ -41,10 +41,10 @@ const Header: React.FC = () => {
           <ul className="flex items-center gap-6">
             <li>About us</li>
             <li>Contact</li>
-            <li>
-            <LocaleSwitcher />
-              
-            </li>
+            <div className={`hidden md:block mr-0 md:mr-8`}>
+              <LocaleSwitcher />
+            </div>
+
             <ButtonProps className={styles.button} title="Start trading" />
           </ul>
         </div>
