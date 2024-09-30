@@ -4,9 +4,11 @@ import styles from "@/assets/css/header/page.module.css";
 import { useLocale } from "next-intl";
 import Mainlogo from "@/assets/images/Logo (1).png";
 import Image from "next/image";
+
 // import LocaleSwitcher from "@/Ui/LocaleSwitcher";
 import ButtonProps from "@/components/Buttons/Button";
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
+import LocaleSwitcher from "@/Ui/LocaleSwitcher";
 const Header: React.FC = () => {
   return (
     <header className="container">
@@ -40,13 +42,8 @@ const Header: React.FC = () => {
             <li>About us</li>
             <li>Contact</li>
             <li>
-              <FormGroup>
-                <Input type="select" name="select" id="exampleSelect">
-                  <option>En</option>
-                  <option>AZ</option>
-                  <option>RU</option>
-                </Input>
-              </FormGroup>
+            <LocaleSwitcher />
+              
             </li>
             <ButtonProps className={styles.button} title="Start trading" />
           </ul>

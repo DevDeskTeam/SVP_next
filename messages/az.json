@@ -1,9 +1,19 @@
 {
-  "HomePage": {
-    "title": ""
+  "HomePageServices": {
+    "title1": "Nəqliyyat xidmətləri",
+    "description1": "Bizim ticarət şirkətimiz hava, dəniz və quru nəqliyyatı ilə təhlükəsiz, səmərəli və vaxtında çatdırılmanı təmin edir. Tam və qismən yükləri idarə edirik, multimodal həllər təklif edirik və yük sığortası təmin edirik, sizə isə biznesinizin inkişafına diqqət yetirməyi buraxırıq.",
+
+    "title2": "Gömrük brokeri xidmətləri",
+    "description2": "Mürəkkəb gömrük qaydaları və sənədlər sizi narahat edir? Beynəlxalq göndərişlər sizə başağrısı olmasın. SVP şirkətində biz idxal və ixrac proseslərinizi sadələşdirmək üçün peşəkar gömrük brokeri xidmətləri təklif edirik.",
+
+    "title3": "Anbar xidmətləri",
+    "description3": "Tərəfdaşlarımızın anbarları mallarınızı zərərdən qorumaq üçün temperatur nəzarəti altındadır və qabaqcıl izləmə sistemləri ilə təchiz edilmişdir. Biz qablaşdırma, etiketləmə və yük idarəetməsi də daxil olmaqla bir sıra əlavə xidmətlər təklif edirik, bu isə təchizat zəncirinizi sadələşdirir və sizə tam rahatlıq verir.",
+
+    "title4": "Yük sığortası xidmətləri",
+    "description4": "Qiymətli yüklərinizin qorunmasının vacibliyini başa düşürük. Buna görə də biz sərmayənizi qorumaq üçün geniş yük sığortası variantları təklif edirik"
   },
   "LocaleSwitcher": {
-    "label": "Dili dəyiş",
+    "label": "",
     "locale": "{locale, select, az {AZ} en {EN} ru {RU} other {Unknown}}"
   }
 }

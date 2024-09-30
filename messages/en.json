@@ -1,6 +1,16 @@
 {
-  "HomePage": {
-    "title": "Welcomeeeeeee  to homee"
+  "HomePageServices": {
+    "title1": "Transportation services",
+    "description1": "Our trade company ensures safe, efficient, and timely delivery through air, sea, and land transport. We handle full and partial shipments, offer multimodal solutions, and provide cargo insurance, letting you focus on your business growth.",
+    
+    "title2": "Customs broker services",
+    "description2": "Feeling overwhelmed by complex customs regulations and paperwork? Don't let international shipping become a headache. At SVP company, we offer expert customs brokerage services designed to streamline your import and export processes.",
+
+    "title3": "Warehouse services",
+    "description3": "Our partners' facilities are temperature-controlled to protect your goods from damage, and utilize advanced tracking systems. We offer a variety of value-added services, including packing, labeling, and cargo management, all designed to streamline your supply chain and give you complete peace of mind.",
+
+    "title4": "Cargo insurance services",
+    "description4": "We understand the importance of protecting your valuable cargo. That's why we offer comprehensive cargo insurance options to protect your investment. Our insurance solutions provide peace of mind and allow you to focus on your business goals with confidence."
   },
   "LocaleSwitcher": {
     "label": "",

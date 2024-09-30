@@ -20,8 +20,6 @@ export default function Home() {
       <section >
         <div className="container">
           <Empowering />
-
-          
         </div>
       </section>
       <section>
@@ -46,8 +44,6 @@ export default function Home() {
               <h2 className={`${styles.text}`}>Services</h2>
             </div>
                 <Services/>
-
-
           </div>
         </div>
       </section>

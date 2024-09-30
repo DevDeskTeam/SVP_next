@@ -11,6 +11,7 @@ export default function LocaleSwitcher(){
     const pathname = usePathname();
     const params = useParams() as Record<string, string>;
 
+
     const switchLocale = (nextLocale: Locale) => {
         // @ts-ignore
         router.replace({pathname,params}, {locale: nextLocale});
