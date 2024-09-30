@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "@/assets/css/cards/servicescard.module.css";
-import servicesmock from "../../../mock/HomeServices";
-const ServicesCard = () => {
+import servicesmock from "../../../mock/TransportationService";
+const TransportationServicesCard = () => {
   return (
     <>
     {servicesmock.map((el, key) => (
@@ -21,4 +21,4 @@ const ServicesCard = () => {
   );
 };
 
-export default ServicesCard;
+export default TransportationServicesCard;

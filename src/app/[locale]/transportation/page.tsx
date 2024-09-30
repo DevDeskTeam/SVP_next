@@ -3,6 +3,9 @@ import { useTranslations } from "next-intl";
 import Services from "@/components/Cards/ServicesCard";
 import styles from "@/assets/css/style.module.css";
 import Trading from "@/components/Pages/Home/Trading";
+import Service from "@/components/Pages/Transportation/Service";
+import TransportationServicesCard from "@/components/Cards/TransportaionCard";
+
 export default function page() {
   const t = useTranslations("Transportation");
 
@@ -11,13 +14,17 @@ export default function page() {
       {/* <h1>{t("title")}</h1> */}
 
       <section>
+        <div className="container">
+          <Service />
+        </div>
+      </section>
+
+      <section>
         <div className={`${styles.banner}`}>
           <div className={`${styles.services}`}>
-            <Services />
-            <Services />
-            <Services />
-            <Services />
-          </div>
+
+            <TransportationServicesCard />
+            </div>
         </div>
       </section>
       
