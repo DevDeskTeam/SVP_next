@@ -1,19 +1,16 @@
-
-
 .services {
   /* position: absolute;
   right: -38px;
   bottom: 60px; */
   max-width: 476px;
   height: 216px;
-
-  background: #2191DD;
-  padding-left: 32px;
+  background: #F0F0F0;
+  padding: 28px 34px;
+  /* border-radius: 12px; */
 }
 
 .services h1 {
-  color: #F0F0F0;
-
+  color: #2191DD;
   /* Title 6/600 */
   font-family: "Open Sans";
   font-size: 28px;
@@ -22,12 +19,11 @@
   line-height: 40px;
   /* 142.857% */
   letter-spacing: -0.308px;
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 
 .services p {
-  color: #FFF;
+  color: #4E4E4E;
   font-family: "Open Sans";
   font-size: 16px;
   font-style: normal;
@@ -35,7 +31,7 @@
   line-height: 24px;
   /* 150% */
   letter-spacing: -0.176px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .services button {
@@ -47,9 +43,10 @@
   font-weight: 600;
   line-height: 24px;
   letter-spacing: -0.176px;
-  padding: 12px 20px;
+  padding: 8px 20px;
   border-radius: 8px;
   border: 1px solid #F0F0F0;
+  background: #2191DD;
 }
 
 
@@ -80,8 +77,8 @@ body {
   max-width: 476px !important;
   height: auto !important;
   position: absolute !important;
-  right: -28px !important;
-  bottom: 0px !important;
+  right: 16px !important;
+  bottom: 16px !important;
   border-radius: 12px;
   cursor: e-resize;
 }
