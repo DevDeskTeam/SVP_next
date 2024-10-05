@@ -16,7 +16,9 @@ const Header: React.FC = () => {
     <header className="container">
       <div className={`${styles.banner}`}>
         <div className={`${styles.left}`}>
-          <Image src={Mainlogo} alt="SVP" />
+          <Link href={`/${locale}/`}>
+            <Image src={Mainlogo} alt="SVP" />
+          </Link>
           <ul className="flex items-center gap-6">
             <li>
               <Link href={`/${locale}/transportation`}>Transportation</Link>
