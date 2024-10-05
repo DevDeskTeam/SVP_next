@@ -4,20 +4,26 @@ import styles from "@/assets/css/header/page.module.css";
 import { useLocale } from "next-intl";
 import Mainlogo from "@/assets/images/Logo (1).png";
 import Image from "next/image";
-
+import { useRouter } from "next/router";
+import Link from "next/link";
 // import LocaleSwitcher from "@/Ui/LocaleSwitcher";
 import ButtonProps from "@/components/Buttons/Button";
-import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 import LocaleSwitcher from "@/Ui/LocaleSwitcher";
 const Header: React.FC = () => {
+  const locale = useLocale();
+
   return (
     <header className="container">
       <div className={`${styles.banner}`}>
         <div className={`${styles.left}`}>
           <Image src={Mainlogo} alt="SVP" />
           <ul className="flex items-center gap-6">
-            <li>Transportation</li>
-            <li>Customs broker</li>
+            <li>
+              <Link href={`/${locale}/transportation`}>Transportation</Link>
+            </li>
+            <li>
+              <Link href={`/${locale}/customerbroker`}>Customs broker</Link>
+            </li>
             <li>Warehouse</li>
             <li>Cargo insurance</li>
           </ul>

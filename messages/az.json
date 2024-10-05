@@ -26,7 +26,40 @@
     "title4": "Yük sığortası xidmətləri",
     "description4": "Qiymətli yüklərinizin qorunmasının vacibliyini başa düşürük. Buna görə də biz sərmayənizi qorumaq üçün geniş yük sığortası variantları təklif edirik"
   },
-  
+
+  "TransportationPage": {
+    "start_trading": "Ticarətə başlayın",
+    "transportation": "Nəqliyyat ",
+    "services": "xidmətləri",
+    "description": "Ticarət şirkətimiz hava, dəniz və quru nəqliyyatı ilə təhlükəsiz, səmərəli və vaxtında çatdırılmanı təmin edir. Biz tam və qismən daşımaların öhdəsindən gəlirik, multimodal həllər təklif edirik və yük sığortası ilə təmin edirik ki, bu da diqqətinizi biznesinizin böyüməsinə yönəltməyə imkan verir."
+  },
+  "CustomerBrokerPage": {
+    "start_trading": "Start trading",
+    "transportation": "Gömrük brokeri",
+    "services": "services",
+    "description": "Mürəkkəb gömrük qaydaları və sənədləşmə işləri sizi narahat edir? SVP şirkətində biz idxal və ixrac proseslərinizi asanlaşdırmaq üçün nəzərdə tutulmuş ekspert gömrük broker xidmətləri təklif edirik. Gömrük sənədlərinizin hamısını biz idarə edirik."
+  },
+  "TransportationPageServices": {
+    "title1": "Yerüstü yüklərin daşınması",
+    "description1": "Yerüstü yükdaşıma xidmətlərimiz yük maşınları ilə Aİ və MDB ölkələri üzrə yüklərin daşınmasını əhatə edir. Məhsullarınızın sizə və tərəfdaşlarınıza gecikmədən çatmasını təmin edərək, həm idxalı, həm də ixracı gündəlik idarə edirik.",
+
+    "title2": "Hava nəqliyyatı ilə yük daşımaları",
+    "description2": "Hava nəqliyyatı yüklərin daşınması üçün ən sürətli və təhlükəsiz üsuldur, təcili çatdırılmalar və yüksək dəyərli, aşağı çəkili daşınmalar üçün idealdır. Geniş təcrübəmizdən və etibarlı tərəfdaşlar şəbəkəmizdən istifadə etməklə.",
+
+    "title3": "Dəniz yüklərinin daşınması",
+    "description3": "Dəniz daşımaları ən qənaətcil və bəzi hallarda yeganə əlverişli variantdır. Biz həm tam konteynerləri, həm də daha kiçik hissəvi yükləri su ilə daşıyaraq təhlükəsiz, sürətli və səmərəli çatdırılmanı təmin edirik."
+  },
+  "BrokerPageServices": {
+    "title1": "Gömrük sənədləri",
+    "description1": "Çətin sənədləşmələrlə özünüzü yormayın. Bütün gömrük sənədlərinizlə, o cümlədən bəyanatlar, CMR (beynəlxalq yük qaiməsi) və TIR (tranzit) karnetlərinin hazırlanması ilə biz məşğul oluruq.",
+
+    "title2": "Gömrük işləri sadələşdi",
+    "description2": "Beynəlxalq sərhədləri keçmək çətin qaydalar və naməlum prosedurlarla müşayiət oluna bilər. Komandamız gömrükdə sizin etibarlı nümayəndəniz kimi çıxış edərək, rahat və stressiz prosesin təminatçısı olur.",
+
+    "title3": "Gömrük prosedurları",
+    "description3": "Komandamız sizin gömrük proseslərinizin hərtərəfli idarəsini təklif edir. Biz ilkin sənədləşmədən və gömrük orqanları ilə ünsiyyətdən tutmuş düzgün rüsum hesablamaları və qaydalara əməl olunmasına qədər bütün aspektləri idarə edirik."
+  },
+
   "LocaleSwitcher": {
     "label": "",
     "locale": "{locale, select, az {AZ} en {EN} ru {RU} other {Unknown}}"

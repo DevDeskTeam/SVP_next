@@ -4,7 +4,10 @@
     "feature": "The features of",
     "optimization": "optimization",
     "empowering": "Empowering your global trade journey"
-    
+  },
+
+  "Button": {
+    "start_trading": "Start trading"
   },
   "HomePageFeatured": {
     "description1": "We optimization improves resource usage, leading to more effective task performance.",
@@ -31,6 +34,42 @@
     "description4": "We understand the importance of protecting your valuable cargo. That's why we offer comprehensive cargo insurance options to protect your investment. Our insurance solutions provide peace of mind and allow you to focus on your business goals with confidence."
   },
 
+  "TransportationPage": {
+    "start_trading": "Start trading",
+    "transportation": "Transportation",
+    "services": "services",
+    "description": "Our trade company ensures safe, efficient, and timely delivery through air, sea, and land transport. We handle full and partial shipments, offer multimodal solutions, and provide cargo insurance, letting you focus on your business growth."
+  },
+  "CustomerBrokerPage": {
+    "start_trading": "Start trading",
+    "transportation": "Customs broker",
+    "services": "services",
+    "description": "Feeling overwhelmed by complex customs regulations and paperwork?  At SVP company, we offer expert customs brokerage services designed to streamline your import and export processes. We handle all your customs documentation."
+  },
+  "TransportationPageServices": {
+
+    "title1": "Land freight transportation",
+    "description1": "Our land freight services cover the transportation of goods across the EU and CIS countries via trucks. We manage both imports and exports daily,ensuring your products reach you and your partners without delay.",
+
+    "title2": "Air freight transportation",
+    "description2": "Air freight is the fastest and safest method for transporting cargo, ideal for urgent deliveries and high-value, low-weight shipments. Leveraging our extensive experience and reliable network of partners.",
+
+    "title3": "Sea freight transportation",
+    "description3": "Sea freight is the most economical and, in some cases, the only viable option for. We transport both full containers and smaller partial loads by water, ensuring safe, fast, and efficient delivery."
+
+  },
+  "BrokerPageServices": {
+
+    "title1": "Customs documents",
+    "description1": "Don't get bogged down by complex paperwork. We handle all your customs documentation needs, including declarations, CMR (international consignment note), and TIR (transit) carnet preparation.   ",
+
+    "title2": "Customs made easy",
+    "description2": "Crossing international borders can involve complex regulations and unfamiliar procedures. Our team acts as your trusted representative at customs, ensuring a smooth and stress-free process. ",
+
+    "title3": "Customs procedures",
+    "description3": "Our team offers comprehensive control of your customs processes. We manage all aspects, from initial documentation and communication with customs officials to ensuring accurate duty calculations and compliance with regulations.   "
+    
+  },
   "LocaleSwitcher": {
     "label": "",
     "locale": "{locale, select, az {AZ} en {EN} ru {RU} other {Unknown}}"

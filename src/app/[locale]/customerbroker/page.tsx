@@ -4,8 +4,8 @@ import Services from "@/components/Cards/ServicesCard";
 import styles from "@/assets/css/style.module.css";
 import Trading from "@/components/Pages/Home/Trading";
 import Service from "@/components/Pages/Transportation/Service";
-import TransportationServicesCard from "@/components/Cards/TransportaionCard";
-
+import BakerServicesCard from "@/components/Cards/BakerCard";
+import BrokerServices from "@/components/Pages/Customerbroker/Services";
 export default function page() {
   const t = useTranslations("Transportation");
 
@@ -13,7 +13,7 @@ export default function page() {
     <>
       <section>
         <div className="container">
-          <Service />
+          <BrokerServices />
         </div>
       </section>
 
@@ -21,7 +21,7 @@ export default function page() {
         <div className={`${styles.banner}`}>
           <div className={`${styles.services}`}>
 
-            <TransportationServicesCard />
+            <BakerServicesCard />
             </div>
         </div>
       </section>

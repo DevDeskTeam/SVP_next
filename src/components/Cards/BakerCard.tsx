@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "@/assets/css/cards/servicescard.module.css";
-import { transportservices } from "../../../mock/TransportationService";
-const TransportationServicesCard = () => {
-  const Servicesmock = transportservices()
+import { brokerservices } from "../../../mock/BrokerServices";
+const BakerServicesCard = () => {
+  const Transportservices = brokerservices()
   return (
     <>
-    {Servicesmock.map((el, key) => (
+    {Transportservices.map((el, key) => (
         <div className={`${styles.card}`}>
         <div key={el.id} className={`${styles.card_inner}`}>
           <div className={`${styles.first}`}>
@@ -22,4 +22,4 @@ const TransportationServicesCard = () => {
   );
 };
 
-export default TransportationServicesCard;
+export default BakerServicesCard;

@@ -5,7 +5,7 @@ import ButtonProps from "@/components/Buttons/Button";
 
 const Trading = () => {
     return (
-        <div className={`${styles.banner}`}>
+        <div className={` ${styles.banner} mb-[80px] mt-[80px]`}>
             <div className={`${styles.text}`}>
                 <p>Are you prepared for a</p>
                 <p>Trading Adventure?</p>

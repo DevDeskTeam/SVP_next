@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 
-export const transportservices = () => {
-  const t = useTranslations("TransportationPageServices");
+export const brokerservices = () => {
+  const t = useTranslations("BrokerPageServices");
 
   return [
     {
@@ -25,4 +25,4 @@ export const transportservices = () => {
   ];
 };
 
-export default transportservices;
+export default brokerservices;

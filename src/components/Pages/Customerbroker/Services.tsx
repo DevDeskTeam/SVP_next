@@ -6,8 +6,8 @@ import Airplane from '@/assets/images/Transportation/airplane.png'
 import Ship from '@/assets/images/Transportation/ship.png'
 import Train from '@/assets/images/Transportation/train.png'
 import { useTranslations } from 'next-intl';
-const Service = () => {
-    const t = useTranslations('TransportationPage')
+const BrokerServices = () => {
+    const t = useTranslations('CustomerBrokerPage')
     return (
         <div className={`${styles.banner}`}>
             <div className={`${styles.left_side}`}>
@@ -36,4 +36,4 @@ const Service = () => {
     )
 }
 
-export default Service
+export default BrokerServices;
