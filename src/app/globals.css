@@ -54,7 +54,7 @@ body::before {
 .container {
   /* width: 100%; */
   max-width: 1368px;
-  /* padding: 0 28px; */
+  padding: 0 20px;
   margin: 0 auto;
 }
 
