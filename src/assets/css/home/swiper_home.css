@@ -32,6 +32,10 @@
   /* 150% */
   letter-spacing: -0.176px;
   margin-bottom: 24px;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  height: 51px;
 }
 
 .services button {

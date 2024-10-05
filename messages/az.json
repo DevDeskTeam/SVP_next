@@ -24,9 +24,11 @@
     "description3": "Tərəfdaşlarımızın anbarları mallarınızı zərərdən qorumaq üçün temperatur nəzarəti altındadır və qabaqcıl izləmə sistemləri ilə təchiz edilmişdir. Biz qablaşdırma, etiketləmə və yük idarəetməsi də daxil olmaqla bir sıra əlavə xidmətlər təklif edirik, bu isə təchizat zəncirinizi sadələşdirir və sizə tam rahatlıq verir.",
 
     "title4": "Yük sığortası xidmətləri",
-    "description4": "Qiymətli yüklərinizin qorunmasının vacibliyini başa düşürük. Buna görə də biz sərmayənizi qorumaq üçün geniş yük sığortası variantları təklif edirik"
+    "description4": "Qiymətli yüklərinizin qorunmasının vacibliyini başa düşürük. Buna görə də biz sərmayənizi qorumaq üçün geniş yük sığortası variantları təklif edirik",
+   
+    "learnMore": "Daha çox"
   },
-  
+
   "LocaleSwitcher": {
     "label": "",
     "locale": "{locale, select, az {AZ} en {EN} ru {RU} other {Unknown}}"
