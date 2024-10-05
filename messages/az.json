@@ -2,7 +2,8 @@
   "HomePage": {
     "services": "Xidmətlər",
     "feature": "Optimallaşdırmanın ",
-    "optimization": "xüsusiyyətləri"
+    "optimization": "xüsusiyyətləri",
+    "empowering": "Qlobal ticarət səyahətinizi gücləndirin"
   },
   "HomePageFeatured": {
     "description1": "Biz optimallaşdırma resurslardan istifadəni yaxşılaşdırır və tapşırıqların daha effektiv yerinə yetirilməsinə səbəb oluruq.",
@@ -25,6 +26,7 @@
     "title4": "Yük sığortası xidmətləri",
     "description4": "Qiymətli yüklərinizin qorunmasının vacibliyini başa düşürük. Buna görə də biz sərmayənizi qorumaq üçün geniş yük sığortası variantları təklif edirik"
   },
+  
   "LocaleSwitcher": {
     "label": "",
     "locale": "{locale, select, az {AZ} en {EN} ru {RU} other {Unknown}}"
