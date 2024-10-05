@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Navigation } from 'swiper/modules';
-
+``
 export default function App() {
     return (
         <>
@@ -21,7 +21,7 @@ export default function App() {
                 navigation={true}
                 modules={[Navigation]}
                 className="mySwiper"
-                slidesPerView={1}
+                slidesPerView={1} 
             // spaceBetween={50}
 
             >

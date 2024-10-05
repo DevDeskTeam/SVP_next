@@ -42,7 +42,7 @@ export default async function RootLayout({
         />
         <NextIntlClientProvider messages={messages}>
           <ReduxProvider>
-            <BlueLine />
+            {/* <BlueLine /> */}
             <Header />
             {children}
             <Footer/>
