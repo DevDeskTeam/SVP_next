@@ -50,13 +50,13 @@
     "description": "Mürəkkəb gömrük qaydaları və sənədləşmə işləri sizi narahat edir? SVP şirkətində biz idxal və ixrac proseslərinizi asanlaşdırmaq üçün nəzərdə tutulmuş ekspert gömrük broker xidmətləri təklif edirik. Gömrük sənədlərinizin hamısını biz idarə edirik."
   },
   "WarehousePage": {
-    "start_trading": "Ticaretə başlayın",
+    "start_trading": "ticarətə başlayın",
     "warehouse": "Anbar",
     "services": "xidmətlər",
     "description": "Tərəfdaşlarımızın obyektləri mallarınızı zədələnmədən qorumaq üçün temperatur nəzarəti altında saxlanılır və qabaqcıl izləmə sistemlərindən istifadə olunur. Biz qablaşdırma, etiketləmə və yük idarəetməsi kimi müxtəlif əlavə dəyərli xidmətlər təklif edirik."
   },
   "CargoPage": {
-    "start_trading": "Ticaretə başlayın",
+    "start_trading": "Ticarətə başlayın",
     "cargo": "Yük sığortası",
     "services": "xidmətlər",
     "description": "Dəyərli yükünüzü qorumağın əhəmiyyətini anlayırıq. Buna görə də investisiyanızı qorumaq üçün əhatəli yük sığortası variantları təklif edirik. Sığorta həllərimiz sizə rahatlıq təqdim edir və biznes hədəflərinizə inamla fokuslanmağınıza imkan tanıyır."
@@ -147,7 +147,7 @@
   "Trading": {
     "prepared": "Ticarət macərası",
     "trading": "üçün hazırsınız?",
-    "start_trading": "Ticaretə başlayın"
+    "start_trading": "Ticarətə başlayın"
   },
 
   "LocaleSwitcher": {
