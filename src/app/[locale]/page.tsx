@@ -48,7 +48,11 @@ export default function Home() {
       <section>
         <div className="container">
           <CustomerCard />
-          <SolutionSect />
+        </div>
+      </section>
+      <section>
+        <div className="container">
+        <SolutionSect />
         </div>
       </section>
     </>

@@ -3,7 +3,10 @@
     "services": "Xidmətlər",
     "feature": "Optimallaşdırmanın ",
     "optimization": "xüsusiyyətləri",
-    "empowering": "Qlobal ticarət səyahətinizi gücləndirin"
+    "empowering": "Qlobal ticarət səyahətinizi gücləndirin",
+    "become_our": "Bizim",
+    "satisfied": "məmnun",
+    "customers": "müştərimiz olun!"
   },
   "HomePageFeatured": {
     "description1": "Biz optimallaşdırma resurslardan istifadəni yaxşılaşdırır və tapşırıqların daha effektiv yerinə yetirilməsinə səbəb oluruq.",
@@ -41,6 +44,13 @@
     "services": "services",
     "description": "Mürəkkəb gömrük qaydaları və sənədləşmə işləri sizi narahat edir? SVP şirkətində biz idxal və ixrac proseslərinizi asanlaşdırmaq üçün nəzərdə tutulmuş ekspert gömrük broker xidmətləri təklif edirik. Gömrük sənədlərinizin hamısını biz idarə edirik."
   },
+  "WarehousePage": {
+    "start_trading": "Ticaretə başlayın",
+    "warehouse": "Anbar",
+    "services": "xidmətlər",
+    "description": "Tərəfdaşlarımızın obyektləri mallarınızı zədələnmədən qorumaq üçün temperatur nəzarəti altında saxlanılır və qabaqcıl izləmə sistemlərindən istifadə olunur. Biz qablaşdırma, etiketləmə və yük idarəetməsi kimi müxtəlif əlavə dəyərli xidmətlər təklif edirik."
+  },
+
   "TransportationPageServices": {
     "title1": "Yerüstü yüklərin daşınması",
     "description1": "Yerüstü yükdaşıma xidmətlərimiz yük maşınları ilə Aİ və MDB ölkələri üzrə yüklərin daşınmasını əhatə edir. Məhsullarınızın sizə və tərəfdaşlarınıza gecikmədən çatmasını təmin edərək, həm idxalı, həm də ixracı gündəlik idarə edirik.",
@@ -60,6 +70,49 @@
 
     "title3": "Gömrük prosedurları",
     "description3": "Komandamız sizin gömrük proseslərinizin hərtərəfli idarəsini təklif edir. Biz ilkin sənədləşmədən və gömrük orqanları ilə ünsiyyətdən tutmuş düzgün rüsum hesablamaları və qaydalara əməl olunmasına qədər bütün aspektləri idarə edirik."
+  },
+  "WarehousePageServices": {
+    "title1": "Təhlükəsiz saxlama/idarəetmə",
+    "description1": "Tərəfdaş anbarlarımız yükünüzün təhlükəsizliyini prioritet hesab edir. Obyektlər yaxşı saxlanılır, temperatur nəzarəti altındadır və 24/7 video nəzarət və təhlükəsizlik işçiləri ilə qorunur. Müasir yük qeydiyyatı sistemi mövcuddur.",
+
+    "title2": "Dəyər əlavə edən xidmətlər",
+    "description2": "Biz sadəcə saxlama ilə məhdudlaşmırıq və spesifik ehtiyaclarınıza cavab verən geniş çeşiddə əlavə dəyərli xidmətlər təklif edirik. Komandamız qablaşdırma, çeşidləmə, yığma, etiketləmə və hətta mallarınızın görünüşünü dəyişdirməkdə sizə kömək edə bilər.",
+
+    "title3": "İdxal/ixrac xidmətləri",
+    "description3": "Gömrük anbarımız/idxal-ixrac terminalımız beynəlxalq ticarət ehtiyaclarınız üçün bir mərkəzdən xidmət göstərir. Biz limitsiz yük saxlama təklif edirik, həmçinin çatdırılma və satınalma-satış əməliyyatları üçün alıcı dəyişdirilməsi kimi xidmətlər də təklif edirik."
+  },
+
+  "CustomerSay": {
+    "title1": "John Smith",
+    "role1": "Acme Manufacturing şirkətinin CEO-su",
+    "description1": "SVP şirkətinə bütün beynəlxalq nəqliyyat ehtiyaclarımız üçün etibar edirik. Onlar həmişə yükümüzü təyinat yerindən asılı olmayaraq vaxtında və büdcə çərçivəsində çatdırırlar. Onların ünsiyyəti mükəmməldir, bütün çatdırılma prosesində bizi məlumatlandırırlar. Etibarlı və səmərəli nəqliyyat xidmətləri axtaran hər bir şirkətə tövsiyə edirik.",
+    "title2": "Maria Garcia",
+    "role2": "Technovation Inc şirkətində Təchizat Zənciri Direktoru",
+    "description2": "Biznesimizdə rahatlıq qiymətsizdir. SVP-nin yüklərin sığorta planları bizi bir neçə dəfə xilas edib. Onların hərtərəfli sığorta variantları bizə qiymətli mallarımızı dünya miqyasında rahatlıqla göndərmək üçün təhlükəsizlik təmin edir. Xüsusilə, onların sürətli və çətinliksiz iddia prosesi üçün minnətdarıq.",
+    "title3": "David Patel",
+    "role3": "Patel International Shipping şirkətinin sahibi",
+    "description3": "SVP ilə anbar ehtiyaclarımız üçün əməkdaşlıq etdiyimizdən bəri inventar idarəçiliyimiz problemsiz bir əməliyyata çevrilib. Onların anbarları təhlükəsiz və yaxşı qorunur, işçiləri peşəkar və cavabdehdir. Xidmətlərinin miqyasını işimiz böyüdükcə tənzimləyə bilmək bizim üçün böyük bir üstünlükdür."
+  },
+  "Solution": {
+    "business": "Biznes",
+    "solution": "həllər",
+    "description": "Biznesdə etibarlı tərəfdaşlar əvəzedilməz hərəkətverici qüvvədir. Buna görə də, biz sizə biznesinizin uğuruna zəmanət olaraq xidmətlərimizi təklif edirik.",
+    "touch": "Əlaqə qurun",
+    "products": "Ən yaxşı şərtlərlə məhsullar alın",
+    "organize": "İstehsalın nəqliyyatını və satışını ən yaxşı şərtlərlə təşkil etmək",
+    "cooperate": "Maliyyə və intellektual dəstəklə perspektivli ideyaların həyata keçirilməsində əməkdaşlıq etmək",
+    "credit": "Ehtiyac yaranarsa perspektivli layihələrə kredit vermək",
+    "help": "Avropa və MDB ölkələrində biznes tərəfdaşları tapmaqda kömək etmək"
+  },
+  "Footer": {
+    "about": "Haqqımızda",
+    "contact": "Əlaqə",
+    "transportation": "Nəqliyyat",
+    "customer": "Müştəri brokeri",
+    "warehouse": "Anbar",
+    "cargo": "Yük sığortası",
+    "privacy": "Məxfilik siyasəti",
+    "terms": "Şərtlər və Qaydalar"
   },
 
   "LocaleSwitcher": {
