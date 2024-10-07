@@ -3,7 +3,7 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  // output: "export", // comment out this line
 };
 
-export default withNextIntl({ ...nextConfig });
+export default withNextIntl(nextConfig);
