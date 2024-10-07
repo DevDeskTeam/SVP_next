@@ -8,6 +8,11 @@
     "satisfied": "məmnun",
     "customers": "müştərimiz olun!"
   },
+  "HomeAbout": {
+    "about": "Haqqımızda",
+    "description": "UAB \"Sinerginiai Verslo Projektai\" Avropada sizin biznesiniz üçün ixtisaslı, innovativ və peşəkar bir tərəfdaşdır. Biz logistika və ticarət sahəsində beynəlxalq əməkdaşlığı inkişaf etdirən bir komandayıq. Biz Avropa İttifaqı və MDB ölkələrindən olan şirkətlərlə işləyir, vasitəçilik edir, əməkdaşlıq edir və perspektivli layihələr üçün intellektual və maliyyə dəstəyi təmin edirik."
+  },
+
   "HomePageFeatured": {
     "description1": "Biz optimallaşdırma resurslardan istifadəni yaxşılaşdırır və tapşırıqların daha effektiv yerinə yetirilməsinə səbəb oluruq.",
     "description2": "Biz lazımsız xərcləri müəyyən edir və aradan qaldırırıq, nəticədə əhəmiyyətli xərclərə qənaət edirik.",
@@ -28,7 +33,7 @@
 
     "title4": "Yük sığortası xidmətləri",
     "description4": "Qiymətli yüklərinizin qorunmasının vacibliyini başa düşürük. Buna görə də biz sərmayənizi qorumaq üçün geniş yük sığortası variantları təklif edirik",
-   
+
     "learnMore": "Daha çox"
   },
 
@@ -49,6 +54,12 @@
     "warehouse": "Anbar",
     "services": "xidmətlər",
     "description": "Tərəfdaşlarımızın obyektləri mallarınızı zədələnmədən qorumaq üçün temperatur nəzarəti altında saxlanılır və qabaqcıl izləmə sistemlərindən istifadə olunur. Biz qablaşdırma, etiketləmə və yük idarəetməsi kimi müxtəlif əlavə dəyərli xidmətlər təklif edirik."
+  },
+  "CargoPage": {
+    "start_trading": "Ticaretə başlayın",
+    "cargo": "Yük sığortası",
+    "services": "xidmətlər",
+    "description": "Dəyərli yükünüzü qorumağın əhəmiyyətini anlayırıq. Buna görə də investisiyanızı qorumaq üçün əhatəli yük sığortası variantları təklif edirik. Sığorta həllərimiz sizə rahatlıq təqdim edir və biznes hədəflərinizə inamla fokuslanmağınıza imkan tanıyır."
   },
 
   "TransportationPageServices": {
@@ -80,6 +91,16 @@
 
     "title3": "İdxal/ixrac xidmətləri",
     "description3": "Gömrük anbarımız/idxal-ixrac terminalımız beynəlxalq ticarət ehtiyaclarınız üçün bir mərkəzdən xidmət göstərir. Biz limitsiz yük saxlama təklif edirik, həmçinin çatdırılma və satınalma-satış əməliyyatları üçün alıcı dəyişdirilməsi kimi xidmətlər də təklif edirik."
+  },
+  "CargoPageServices": {
+    "title1": "Əhatəli sığorta",
+    "description1": "Yük sığortası planlarımız geniş əhatə variantları təqdim edir və dəyərli yüklərinizin müxtəlif risklərə qarşı qorunmasını təmin edir. Bu, toqquşmalar, hava şəraiti, yanğınlar və ya oğurluq kimi gözlənilməz hadisələrin səbəb olduğu zərər və ya itkiləri əhatə edə bilər. Biz etibarlı sığorta təminatçıları ilə sıx əməkdaşlıq edirik.",
+
+    "title2": "Sadələşdirilmiş iddia prosesi",
+    "description2": "Yük hadisəsi baş verdikdə, komandamız sizə iddia prosesini səmərəli şəkildə başa çatdırmağa kömək etmək üçün buradadır. Lazımi sənədləri toplamaqda və sığorta şirkətinə iddia verməkdə sizə dəstək olacağıq. Təcrübəmiz və ixtisasımız, prosesin hamar və sürətli nəticələnməsinə kömək edir.",
+
+    "title3": "Müsabiqəli qiymətlər və elastik seçimlər",
+    "description3": "Biz başa düşürük ki, qiymət vacib bir amildir. Ən yaxşı sığorta təminatçıları ilə əməkdaşlıq edərək, büdcənizə və yük növünüzə uyğun müsabiqəli qiymətlər və elastik əhatə variantları təklif edirik. İstər yüksək dəyərli mallar üçün tam sığorta, istərsə də az dəyərli yüklər üçün sadə qoruma tələb edəsiniz."
   },
 
   "CustomerSay": {
@@ -113,6 +134,20 @@
     "cargo": "Yük sığortası",
     "privacy": "Məxfilik siyasəti",
     "terms": "Şərtlər və Qaydalar"
+  },
+  "Header": {
+    "transportation": "Nəqliyyat",
+    "customs": "Gömrük brokery",
+    "warehouse": "Anbar",
+    "cargo": "Yük sığortası",
+    "about": "Haqqımızda",
+    "contact": "Əlaqə"
+  },
+
+  "Trading": {
+    "prepared": "Ticarət macərası",
+    "trading": "üçün hazırsınız?",
+    "start_trading": "Ticaretə başlayın"
   },
 
   "LocaleSwitcher": {

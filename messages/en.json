@@ -8,7 +8,10 @@
     "satisfied": "satisfied",
     "customers": "customers!"
   },
-
+  "HomeAbout": {
+    "about": "About us",
+    "description": " UAB \"Sinerginiai Verslo Projektai\" is a qualified, innovative and professional partner for your business in Europe. We are a team that develops international cooperation in the field of logistics and trade. We work with companies from the European Union and CIS countries, mediate, cooperate, provide intellectual and financial support for promising projects."
+  },
   "Button": {
     "start_trading": "Start trading"
   },
@@ -57,6 +60,12 @@
     "services": "services",
     "description": "Our partners' facilities are temperature-controlled to protect your goods from damage, and utilize advanced tracking systems. We offer a variety of value-added services, including packing, labeling, and cargo management."
   },
+  "CargoPage": {
+    "start_trading": "Start trading",
+    "cargo": "Cargo insurance",
+    "services": "services",
+    "description": "We understand the importance of protecting your valuable cargo.   That's why we offer comprehensive cargo insurance options to protect your investment. Our insurance solutions provide peace of mind and allow you to focus on your business goals with confidence."
+  },
   "TransportationPageServices": {
     "title1": "Land freight transportation",
     "description1": "Our land freight services cover the transportation of goods across the EU and CIS countries via trucks. We manage both imports and exports daily,ensuring your products reach you and your partners without delay.",
@@ -87,6 +96,17 @@
     "title3": "Import/export services",
     "description3": "Our customs warehouse/import-export terminal provides a one-stop solution for your international trade needs.   We offer unlimited cargo storage, along with services like delivery and the ability to change consignees for purchase-sale operations.  "
   },
+  "CargoPageServices": {
+    "title1": "Comprehensive coverage",
+    "description1": "Our cargo insurance plans offer a wide range of coverage options, ensuring your valuable shipments are protected against various risks.   This may include loss or damage caused by unexpected events such as collisions, weather hazards, fires, or theft.   We work closely with reputable insurance providers.",
+
+    "title2": "Streamlined claims process",
+    "description2": "In the unfortunate event of a cargo incident, our team is here to guide you through the claims process efficiently.   We will assist you in gathering necessary documentation and filing your claim with the insurance company.   Our experience and expertise help ensure a smooth and swift resolution.",
+
+    "title3": "Competitive rates and flexible options",
+    "description3": "We understand that cost is a critical factor.   We partner with leading insurance providers to offer competitive rates and flexible coverage options to suit your budget and cargo type.   Whether you require full coverage for high-value goods or basic protection for less valuable shipments. "
+  },
+
   "CustomerSay": {
     "title1": "John Smith",
     "role1": "CEO of Acme Manufacturing",
@@ -120,7 +140,19 @@
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions"
   },
-
+  "Header": {
+    "transportation": "Transportation",
+    "customs": "Customs broker",
+    "warehouse": "Warehouse",
+    "cargo": "Cargo insurance",
+    "about": "About us",
+    "contact": "Contact"
+  },
+  "Trading": {
+    "prepared": "Are you prepared for a",
+    "trading": "Trading Adventure?",
+    "start_trading": "Start trading"
+  },
   "LocaleSwitcher": {
     "label": "",
     "locale": "{locale, select, az {AZ} en {EN} ru {RU} other {Unknown}}"

@@ -5,25 +5,25 @@ export type Locale = (typeof locales)[number];
 
 export const pathnames = {
     '/': '/',
-    '/about': {
-        en: '/about',
-        az: '/haqqimizda',
-        ru: '/onas'
+    '/transportation': {
+        en: '/transportation',
+        az: '/nəqliyyat',
+        ru: '/транспорт'
     },
-    '/services': {
-        en: '/services',
-        az: '/xidmetler',
-        ru: '/uslugi'
+    '/warehouse': {
+        en: '/warehouse',
+        az: '/anbar',
+        ru: '/склад'
     },
-    '/contact': {
-        en: '/contact',
-        az: '/elaqe',
-        ru: '/kontakt'
+    '/cargo': {
+        en: '/cargo',
+        az: '/karqo',
+        ru: '/груз'
     },
-    '/career': {
-        en: '/career',
-        az: '/karyera',
-        ru: '/karyera'
+    '/customerbroker': {
+        en: '/customerbroker',
+        az: '/müştəribrokeri',
+        ru: '/клиентброкер'
     },
 } satisfies Pathnames<typeof locales>;
 
