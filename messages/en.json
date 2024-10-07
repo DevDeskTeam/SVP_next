@@ -3,7 +3,10 @@
     "services": "Services",
     "feature": "The features of",
     "optimization": "optimization",
-    "empowering": "Empowering your global trade journey"
+    "empowering": "Empowering your global trade journey",
+    "become_our": "Become our",
+    "satisfied": "satisfied",
+    "customers": "customers!"
   },
 
   "Button": {
@@ -46,8 +49,13 @@
     "services": "services",
     "description": "Feeling overwhelmed by complex customs regulations and paperwork?  At SVP company, we offer expert customs brokerage services designed to streamline your import and export processes. We handle all your customs documentation."
   },
+  "WarehousePage": {
+    "start_trading": "Start trading",
+    "warehouse": "Warehouse",
+    "services": "services",
+    "description": "Our partners' facilities are temperature-controlled to protect your goods from damage, and utilize advanced tracking systems. We offer a variety of value-added services, including packing, labeling, and cargo management."
+  },
   "TransportationPageServices": {
-
     "title1": "Land freight transportation",
     "description1": "Our land freight services cover the transportation of goods across the EU and CIS countries via trucks. We manage both imports and exports daily,ensuring your products reach you and your partners without delay.",
 
@@ -56,10 +64,8 @@
 
     "title3": "Sea freight transportation",
     "description3": "Sea freight is the most economical and, in some cases, the only viable option for. We transport both full containers and smaller partial loads by water, ensuring safe, fast, and efficient delivery."
-
   },
   "BrokerPageServices": {
-
     "title1": "Customs documents",
     "description1": "Don't get bogged down by complex paperwork. We handle all your customs documentation needs, including declarations, CMR (international consignment note), and TIR (transit) carnet preparation.   ",
 
@@ -68,8 +74,51 @@
 
     "title3": "Customs procedures",
     "description3": "Our team offers comprehensive control of your customs processes. We manage all aspects, from initial documentation and communication with customs officials to ensuring accurate duty calculations and compliance with regulations.   "
-    
   },
+  "WarehousePageServices": {
+    "title1": "Secure storage/management",
+    "description1": "Our partner warehouses prioritize the safety and security of your cargo.   Facilities are well-maintained, temperature-controlled, and under 24/7 surveillance with video monitoring and security personnel.   A modern cargo registration.",
+
+    "title2": "Value-added services",
+    "description2": "We go beyond simple storage to offer a comprehensive suite of value-added services to meet your specific needs.   Our team can assist with packing, sorting, assembly, labeling, and even changing the appearance of your goods.",
+
+    "title3": "Import/export services",
+    "description3": "Our customs warehouse/import-export terminal provides a one-stop solution for your international trade needs.   We offer unlimited cargo storage, along with services like delivery and the ability to change consignees for purchase-sale operations.  "
+  },
+  "CustomerSay": {
+    "title1": "John Smith",
+    "role1": "CEO of Acme Manufacturing",
+    "description1": "We rely on SVP company for all our international transportation needs. They consistently deliver our cargo on time and within budget, regardless of the destination. Their communication is excellent, keeping us informed throughout the entire shipping process. We highly recommend for any company seeking reliable and efficient transportation services.",
+    "title2": "Maria Garcia",
+    "role2": "Supply Chain Director at Technovation Inc",
+    "description2": "Peace of mind is priceless in our business. SVP's cargo insurance plans have saved us on multiple occasions. Their comprehensive coverage options provide us with the security we need to ship our valuable merchandise worldwide We especially appreciate their prompt and hassle-free claims process . ",
+    "title3": "David Patel",
+    "role3": "Owner of Patel International Shipping",
+    "description3": "Since partnering with SVP for our warehousing needs, our inventory management has become a seamless operation. Their facilities are secure and well-maintained, and their staff is incredibly professional and responsive. The scalability of their services allows us to adjust our storage needs as our business grows, which is a huge advantage. "
+  },
+
+  "Solution": {
+    "business": "Business",
+    "solution": "solutions",
+    "description": " In business, reliable partners are an irreplaceable driving force.Therefore, we offer you our services as a guarantee for the success of your business.",
+    "touch": "Get in Touch",
+    "products": "Buy products under the best conditions",
+    "organize": "To organize production transportation and sale under the best conditions",
+    "cooperate": " To cooperate in the realization of promising ideas by contributing financially and intellectually, with knowledge.",
+    "credit": "Credit promising projects in case of need",
+    "help": "Help to find business partners in EU and CIS countries"
+  },
+  "Footer": {
+    "about": "About us",
+    "contact": "Contact",
+    "transportation": "Transportation",
+    "customer": "Customer broker",
+    "warehouse": "Warehouse",
+    "cargo": "Cargo insurance",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  },
+
   "LocaleSwitcher": {
     "label": "",
     "locale": "{locale, select, az {AZ} en {EN} ru {RU} other {Unknown}}"
