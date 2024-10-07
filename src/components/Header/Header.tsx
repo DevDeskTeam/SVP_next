@@ -12,6 +12,17 @@ import LocaleSwitcher from "@/Ui/LocaleSwitcher";
 const Header: React.FC = () => {
   const locale = useLocale();
   const t = useTranslations("Header");
+  const handleScrollToAbout = (event: React.MouseEvent) => {
+    event.preventDefault(); // Prevent default link behavior
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      const { top } = aboutSection.getBoundingClientRect();
+      window.scrollTo({
+        top: window.scrollY + top,
+        behavior: "smooth", // Smooth scrolling
+      });
+    }
+  };
   return (
     <header className="container">
       <div className={`${styles.banner}`}>
@@ -54,7 +65,11 @@ const Header: React.FC = () => {
             />
           </svg>
           <ul className="flex items-center gap-6">
-            <li>{t("about")}</li>
+            <li>
+              <Link href={`/${locale}/`}>
+                {t("about")}
+              </Link>
+            </li>
             <li>{t("contact")}</li>
             <div className={`hidden md:block mr-0 md:mr-8`}>
               <LocaleSwitcher />

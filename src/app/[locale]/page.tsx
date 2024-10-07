@@ -20,8 +20,8 @@ export default function Home() {
           <Empowering />
         </div>
       </section>
-      <section>
-        <div className="container">
+      <section id="about">
+        <div className="container" >
           <About />
         </div>
       </section>

@@ -33,7 +33,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <body className=''>
         <NextTopLoader
-          color="#1e5e27"
+          color="#76bbed"
           height={2}
           crawl={true}
           showSpinner={false}
