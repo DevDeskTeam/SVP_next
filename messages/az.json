@@ -44,21 +44,21 @@
     "description": "Ticarət şirkətimiz hava, dəniz və quru nəqliyyatı ilə təhlükəsiz, səmərəli və vaxtında çatdırılmanı təmin edir. Biz tam və qismən daşımaların öhdəsindən gəlirik, multimodal həllər təklif edirik və yük sığortası ilə təmin edirik ki, bu da diqqətinizi biznesinizin böyüməsinə yönəltməyə imkan verir."
   },
   "CustomerBrokerPage": {
-    "start_trading": "Start trading",
+    "start_trading": "Ticarətə başlayın",
     "transportation": "Gömrük brokeri",
-    "services": "services",
+    "services": "xidmətləri",
     "description": "Mürəkkəb gömrük qaydaları və sənədləşmə işləri sizi narahat edir? SVP şirkətində biz idxal və ixrac proseslərinizi asanlaşdırmaq üçün nəzərdə tutulmuş ekspert gömrük broker xidmətləri təklif edirik. Gömrük sənədlərinizin hamısını biz idarə edirik."
   },
   "WarehousePage": {
-    "start_trading": "ticarətə başlayın",
+    "start_trading": "Ticarətə başlayın",
     "warehouse": "Anbar",
-    "services": "xidmətlər",
+    "services": "xidmətləri",
     "description": "Tərəfdaşlarımızın obyektləri mallarınızı zədələnmədən qorumaq üçün temperatur nəzarəti altında saxlanılır və qabaqcıl izləmə sistemlərindən istifadə olunur. Biz qablaşdırma, etiketləmə və yük idarəetməsi kimi müxtəlif əlavə dəyərli xidmətlər təklif edirik."
   },
   "CargoPage": {
     "start_trading": "Ticarətə başlayın",
     "cargo": "Yük sığortası",
-    "services": "xidmətlər",
+    "services": "xidmətləri",
     "description": "Dəyərli yükünüzü qorumağın əhəmiyyətini anlayırıq. Buna görə də investisiyanızı qorumaq üçün əhatəli yük sığortası variantları təklif edirik. Sığorta həllərimiz sizə rahatlıq təqdim edir və biznes hədəflərinizə inamla fokuslanmağınıza imkan tanıyır."
   },
 
@@ -137,7 +137,7 @@
   },
   "Header": {
     "transportation": "Nəqliyyat",
-    "customs": "Gömrük brokery",
+    "customs": "Gömrük brokeri",
     "warehouse": "Anbar",
     "cargo": "Yük sığortası",
     "about": "Haqqımızda",
