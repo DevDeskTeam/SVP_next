@@ -45,7 +45,8 @@
     top: 16px;
     left: 28px;
     /* width: 708px; */
-    width: 80%;
+    /* width: 80%; */
+    max-width: 80%;
     color: #F0F0F0;
     /* H 1 */
     font-family: "Open Sans";
