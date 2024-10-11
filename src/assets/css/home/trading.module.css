@@ -12,7 +12,7 @@
 .text p {
     color: #FFF;
     /* Display 1 */
-    font-family: "Open Sans";
+    
     font-size: 114px;
     font-style: normal;
     font-weight: 400;
@@ -38,7 +38,7 @@
     color: #2191DD;
     text-align: center;
     /* Title 4/600 */
-    font-family: "Open Sans";
+    
     font-size: 24px;
     font-style: normal;
     font-weight: 600;

@@ -4,10 +4,12 @@
   justify-content: space-between;
   padding-top: 10px;
 }
+
 .left {
   display: flex;
   align-items: center;
 }
+
 .right {
   display: flex;
   align-items: center;
@@ -25,58 +27,114 @@
   color: #4e4e4e;
   text-align: center;
   cursor: pointer;
-  font-family: "Open Sans";
   font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: -0.176px;
 }
-.right  svg{
+
+.right svg {
   display: none;
   cursor: pointer;
 }
+
 .right ul li {
   color: #4e4e4e;
   text-align: center;
   cursor: pointer;
-  font-family: "Open Sans";
   font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: -0.176px;
 }
+
 .button {
   border-radius: 8px;
   background: #2191dd;
   color: #fff;
   text-align: center;
-
-  /* Body 2/600 */
-  font-family: "Open Sans";
   font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: 24px; /* 150% */
   letter-spacing: -0.176px;
 }
+.responsive_nav {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: white;
+}
+.close {
+  padding: 20px;
+}
+.button_nav {
+  margin-top: 48px;
+}
 
-
-@media (max-width:1024px) {
-  .left ul{
-
+.button_nav button {
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #2191dd;
+  text-align: center;
+  color: #fff;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  align-self: stretch;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.264px;
+}
+@media (max-width: 1024px) {
+  .left ul {
     display: none;
   }
-  .right svg{
+
+  .right svg {
     display: block;
   }
-  .right ul{
+
+  .right ul {
     display: none;
   }
+
   .left img {
     width: 100px;
     height: 48px;
+  }
 
+  .responsive_nav.toggle_click {
+    opacity: 1;
+    transform: translateY(0);
+    overflow-y: hidden;
+    z-index: 433;
+    transition: 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: white;
+  }
+  .responsive_nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .responsive_nav ul li {
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
   }
 }

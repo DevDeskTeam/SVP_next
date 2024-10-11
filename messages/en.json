@@ -138,7 +138,8 @@
     "warehouse": "Warehouse",
     "cargo": "Cargo insurance",
     "privacy": "Privacy Policy",
-    "terms": "Terms & Conditions"
+    "terms": "Terms & Conditions",
+    "address":"address"
   },
   "Header": {
     "transportation": "Transportation",
@@ -146,7 +147,9 @@
     "warehouse": "Warehouse",
     "cargo": "Cargo insurance",
     "about": "About us",
-    "contact": "Contact"
+    "contact": "Contact",
+    "start_trading": "Start trading"
+
   },
   "Trading": {
     "prepared": "Are you prepared for a",

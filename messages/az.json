@@ -133,7 +133,8 @@
     "warehouse": "Anbar",
     "cargo": "Yük sığortası",
     "privacy": "Məxfilik siyasəti",
-    "terms": "Şərtlər və Qaydalar"
+    "terms": "Şərtlər və Qaydalar",
+    "address": "ünvan"
   },
   "Header": {
     "transportation": "Nəqliyyat",
@@ -141,7 +142,8 @@
     "warehouse": "Anbar",
     "cargo": "Yük sığortası",
     "about": "Haqqımızda",
-    "contact": "Əlaqə"
+    "contact": "Əlaqə",
+    "start_trading": "Start trading"
   },
 
   "Trading": {

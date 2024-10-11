@@ -132,7 +132,8 @@
     "warehouse": "Склад",
     "cargo": "Страхование груза",
     "privacy": "Политика конфиденциальности",
-    "terms": "Условия и положения"
+    "terms": "Условия и положения",
+    "address": "адрес"
   },
   "Header": {
     "transportation": "Транспортировка",
@@ -140,7 +141,8 @@
     "warehouse": "Склад",
     "cargo": "Страхование грузов",
     "about": "О нас",
-    "contact": "Контакты"
+    "contact": "Контакты",
+     "start_trading": "Start trading"
   },
 
   "Trading": {
