@@ -1,76 +1,94 @@
 .banner {
     position: relative;
     margin-top: 24px;
-
-}
-
-.banner img {
-    /* max-width: 100%; */
-    /* width: 1368px; */
+    background: url('../../images/Hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     height: 648px;
-    object-fit: cover;
-    object-position: center;
-
 }
 
-.rectangular {
-    width: 19px;
-    height: 10px;
-    background-color: #2191DD;
-    color: red;
-    /* bottom: 169px;
-    right: 40px; */
-    position: absolute;
-    bottom: 210px;
-    right: -63px;
-    /* bottom: 228px;
-    right: -20px; */
-    z-index: 3;
-    border-top-left-radius: 12px;
-    /* border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    border-bottom-left-radius: 12px; */
-    /* border-radius: 0 100px 0 0; */
-    transform: rotate(90deg);
-    border-radius: 0 0 0 10px;
-
-}
-
-/* .text {
-    position: relative;
-} */
 .text p {
-    position: absolute;
-    top: 16px;
-    left: 28px;
-    /* width: 708px; */
-    /* width: 80%; */
-    max-width: 80%;
+    padding: 16px 0 0 28px;
+    max-width: 70%;
     color: #F0F0F0;
-    /* H 1 */
     font-family: "Open Sans";
     font-size: 90px;
     font-style: normal;
     font-weight: 400;
     line-height: 112px;
-    /* 116.667% */
     letter-spacing: -4.8px;
-
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
     .text p {
-        width: 100%;
-        font-size: 80px;
-        padding-left: 28px;
-        left: 0px;
+        max-width: 100%;
+        font-size: 78px;
+        padding-right: 28px;
+        line-height: 100px;
+
+    }
+}
+
+@media (max-width: 1042px) {
+    .text p {
+        font-size: 70px;
+        line-height: 100px;
+    }
+}
+
+@media (max-width: 934px) {
+    .text p {
+        font-size: 65px;
+        line-height: 85px;
     }
 }
 
 @media (max-width: 768px) {
+    .banner {
+        height: 619px;
+    }
     .text p {
-        font-size: 70px;
-        line-height: 80px;
+        font-size: 60px;
+        line-height: 70px;
+    }
+}
+
+@media (max-width: 614px) {
+    .text p {
+        font-size: 50px;
+        line-height: 56px;
+        letter-spacing: -2.3px;
+
+    }
+}
+
+@media (max-width: 583px) {
+    .banner {
+        height: auto;
+        background: none;
+        /* box-shadow: 0px 30px 51.7px -28px #292929; */
+
+    }
+
+    .text p {
+        color: #292929;
+        font-family: "Open Sans";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 48px;
+        /* 120% */
+        letter-spacing: -1.24px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 449px) {
+    .text p {
+        font-size: 40px;
+        line-height: 49px;
+        letter-spacing: -2px;
+
     }
 }
