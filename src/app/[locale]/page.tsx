@@ -22,12 +22,12 @@ export default function Home() {
       </section>
       <section id="about">
         <div className="container" >
-          <About />
+          {/* <About /> */}
         </div>
       </section>
       <section>
         <div className="container">
-          <Trading />
+          {/* <Trading /> */}
         </div>
       </section>
       <section>

@@ -14,7 +14,7 @@
 }
 .first span {
   color: #0782d5;
-  font-family: "Open Sans";
+
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -24,7 +24,7 @@
 .first h2 {
   color: #0782d5;
   flex: 1 0 0;
-  font-family: "Open Sans";
+
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -34,7 +34,7 @@
 }
 .info {
   color: #4e4e4e;
-  font-family: "Open Sans";
+
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -56,7 +56,7 @@
     color: #0782D5;
 
     /* Title 4/400 */
-    font-family: "Open Sans";
+  
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -68,7 +68,7 @@
     color: #0782D5;
 
     /* Title 4/400 */
-    font-family: "Open Sans";
+  
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -79,7 +79,7 @@
     color: #4E4E4E;
 
     /* Body 3/400 */
-    font-family: "Open Sans";
+  
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

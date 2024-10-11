@@ -4,7 +4,6 @@
 .card_section .head_text h1 {
   color: #4e4e4e;
  /* H 1 */
-  font-family: "Open Sans";
   font-size: 96px;
   font-style: normal;
   font-weight: 400;
@@ -16,7 +15,7 @@
   .card_section .head_text h1 {
     color: #4e4e4e;
    /* H 2 */
-    font-family: "Open Sans";
+
     font-size: 80px;
     font-style: normal;
     font-weight: 400;
@@ -29,7 +28,7 @@
   .card_section .head_text h1 {
     color: #4e4e4e;
    /* H 3 */
-    font-family: "Open Sans";
+
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -42,7 +41,7 @@
   .card_section .head_text h1 {
     color: #4e4e4e;
    /* H 4 */
-    font-family: "Open Sans";
+
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -138,7 +137,6 @@
   color: #4e4e4e;
   text-align: center;
  /* Title 6/600 */
-  font-family: "Open Sans";
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -151,7 +149,7 @@
     color: #4e4e4e;
     text-align: center;
    /* Body 2/600 */
-    font-family: "Open Sans";
+
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -164,7 +162,6 @@
   color: #4e4e4e;
   text-align: center;
  /* Body 2/400 */
-  font-family: "Open Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -177,7 +174,7 @@
     color: #4e4e4e;
     text-align: center;
    /* Body 3/400 */
-    font-family: "Open Sans";
+
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -233,7 +230,6 @@
 .card_section .cards .one_card .card_texts .card_main_text h5 {
   color: #333;
  /* Body 2/400 */
-  font-family: "Open Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

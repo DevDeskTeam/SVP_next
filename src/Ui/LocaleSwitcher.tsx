@@ -19,7 +19,7 @@ export default function LocaleSwitcher(){
 
     return(
         <>
-            <ul  style={{gap:10}} className=" flex flex-row gap-[10px] text-sm items-center">
+            <ul  style={{gap:10}} className="flex flex-row gap-[10px] text-sm items-center">
                 {locales.map((loc) => (
                     <li
                         key={loc}
