@@ -53,11 +53,6 @@
   background: #2191DD;
 }
 
-
-.swiper-wrapper {
-  /* gap: 10px; */
-}
-
 #app {
   height: 100%;
 }
@@ -87,6 +82,12 @@ body {
   cursor: e-resize;
 }
 
+@media (max-width: 583px) {
+  .swiper {
+    display: none !important;
+  }
+}
+
 .swiper-slide {
   /* width: auto !important; */
 }
@@ -110,7 +111,7 @@ body {
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: black !important;
+  color: #2191DD !important;
   top: auto !important;
   bottom: 10px !important;
   /* right: auto !important; */

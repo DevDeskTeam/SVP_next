@@ -9,16 +9,16 @@ import { useTranslations } from 'next-intl';
 const Empowering = () => {
   const t = useTranslations('HomePage')
   return (
-    <div>
+    <>
       <div className={`${styles.banner}`}>
-        <Image src={Background} alt="background" />
+        {/* <Image src={Background} alt="background" /> */}
         <div className={`${styles.text}`}>
           <p> {t('empowering')} </p>
         </div>
         <Swiper_Home />
         {/* <div className={`${styles.rectangular}`}></div> */}
       </div>
-    </div>
+    </>
   )
 }
 
