@@ -8,6 +8,9 @@ import '@/app/globals.css'
 import Header from "@/components/Header/Header";
 import BlueLine from "@/components/Pages/Home/BlueLIne";
 import Footer from "@/components/Footer/Footer";
+import Login from "./login/page";
+import { pathnames } from "@/config";
+
 
 export const metadata: Metadata = {
   title: {
@@ -29,6 +32,12 @@ export default async function RootLayout({
 }>) {
   const messages = await getMessages();
 
+
+  
+
+  
+
+
   return (
     <html lang={locale}>
       <body className=''>
@@ -42,9 +51,15 @@ export default async function RootLayout({
         />
         <NextIntlClientProvider messages={messages}>
           <ReduxProvider>
-            <Header />
+           <Header />
             {children}
-            <Footer/>
+          
+            <Footer /> 
+
+            
+            
+            
+            
           </ReduxProvider>
         </NextIntlClientProvider>
       </body>
