@@ -39,6 +39,7 @@ const Header: React.FC = () => {
     if (navRef.current) {
       navRef.current.classList.remove(`${styles.toggle_click}`);
     }
+    document.body.style.overflow = "auto"; 
   };
 
   return (
