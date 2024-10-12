@@ -20,7 +20,6 @@ export default function page() {
       <section>
         <div className={`${styles.banner}`}>
           <div className={`${styles.services}`}>
-
             <TransportationServicesCard />
             </div>
         </div>
