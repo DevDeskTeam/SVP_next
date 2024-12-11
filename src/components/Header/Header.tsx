@@ -90,9 +90,9 @@ const Header: React.FC = () => {
             <li>
               <Link href={`/${locale}/`}>{t("about")}</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href={`/${locale}/contact`}>{t("contact")}</Link>
-            </li>
+            </li> */}
             <div className={`hidden md:block mr-0 md:mr-8`}>
               <LocaleSwitcher />
             </div>

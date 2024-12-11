@@ -8,7 +8,7 @@
 
 .text_about p {
   color: #4e4e4e;
-
+   
   /* H 1 */
 
   font-size: 96px;
@@ -42,6 +42,9 @@
   .text_desc {
     display: flex;
     justify-content: start;
+  }
+  .text_about p {
+line-height: 60px;
   }
   .text_desc p {
     margin: 10px 0 0 0;

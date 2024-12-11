@@ -7,6 +7,14 @@ const About = () => {
     return (
         <div className={`${styles.banner}`}>
             <div className={`${styles.text_about}`}>
+                <p>{t('trade')}</p>
+            </div>
+            <div className={`${styles.text_desc}`}>
+                <p>
+                  {t('description2')}
+                </p>
+            </div>
+            <div className={`${styles.text_about} mt-[100px]`}>
                 <p>{t('about')}</p>
             </div>
             <div className={`${styles.text_desc}`}>

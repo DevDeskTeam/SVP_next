@@ -228,6 +228,7 @@ const Footer = () => {
             <li>
               <Link href={`/${locale}/customerbroker`}>{t("customer")}</Link>
             </li>
+            
             <li>
               <Link href={`/${locale}/warehouse`}>{t("warehouse")}</Link>
             </li>
@@ -237,7 +238,7 @@ const Footer = () => {
           </ul>
           <ul>
             <li>
-              <a href="mailto:info@svprojectai.az">info@svprojectai.az</a>
+              <a href="mailto:victoras@svpglobal.az">victoras@svpglobal.az</a>
             </li>
             <li>
               <a href="tel:+994505005050">+994 50 500 50 50</a>

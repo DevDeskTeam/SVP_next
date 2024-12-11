@@ -10,7 +10,9 @@
   },
   "HomeAbout": {
     "about": "About us",
-    "description": " UAB \"Sinerginiai Verslo Projektai\" is a qualified, innovative and professional partner for your business in Europe. We are a team that develops international cooperation in the field of logistics and trade. We work with companies from the European Union and CIS countries, mediate, cooperate, provide intellectual and financial support for promising projects."
+    "description": " UAB \"Sinerginiai Verslo Projektai\" is a qualified, innovative and professional partner for your business in Europe. We are a team that develops international cooperation in the field of logistics and trade. We work with companies from the European Union and CIS countries, mediate, cooperate, provide intellectual and financial support for promising projects.",
+    "trade": "The Importance of Trade",
+    "description2": "Trade is the lifeline of global and local economies. It’s not just about exchanging goods and services—it’s about connecting people, creating opportunities, and driving progress. Through trade, businesses and nations access the resources they lack, specialize in what they do best, and foster partnerships that lead to growth and innovation. Imagine a world without trade: limited access to essential products, stagnant economies, and fewer opportunities for innovation. Trade ensures that we have access to diverse goods, competitive markets, and a platform for collaboration that fuels progress and prosperity. At SVP, we recognize the transformative power of trade and strive to make it more efficient, accessible, and impactful for businesses and individuals alike."
   },
   "Button": {
     "start_trading": "Start trading"
